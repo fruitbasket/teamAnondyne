@@ -1,0 +1,3 @@
+this is the OFFICIAL team anodyne github for all things relating to our glorious project!
+
+please namer your files appropiately for version control
