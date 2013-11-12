@@ -1,0 +1,1 @@
+folder for all relative diagrams such as class/sequence
