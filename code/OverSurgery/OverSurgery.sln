@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.3
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverSurgery", "OverSurgery\OverSurgery.csproj", "{E4B08407-BB25-4D07-96AC-AFE69915FB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pal", "..\pal\pal.csproj", "{61644581-A29B-4EA7-9018-20EB8778D024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fibo", "..\pal\fibo\fibo.csproj", "{1217DBB7-696E-4D11-B4CC-EA9ABE321486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4B08407-BB25-4D07-96AC-AFE69915FB71}.Debug|x86.ActiveCfg = Debug|x86
+		{E4B08407-BB25-4D07-96AC-AFE69915FB71}.Debug|x86.Build.0 = Debug|x86
+		{E4B08407-BB25-4D07-96AC-AFE69915FB71}.Release|x86.ActiveCfg = Release|x86
+		{E4B08407-BB25-4D07-96AC-AFE69915FB71}.Release|x86.Build.0 = Release|x86
+		{61644581-A29B-4EA7-9018-20EB8778D024}.Debug|x86.Build.0 = Debug|Any CPU
+		{61644581-A29B-4EA7-9018-20EB8778D024}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{61644581-A29B-4EA7-9018-20EB8778D024}.Release|x86.Build.0 = Release|Any CPU
+		{61644581-A29B-4EA7-9018-20EB8778D024}.Release|x86.ActiveCfg = Release|Any CPU
+		{1217DBB7-696E-4D11-B4CC-EA9ABE321486}.Debug|x86.Build.0 = Debug|Any CPU
+		{1217DBB7-696E-4D11-B4CC-EA9ABE321486}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1217DBB7-696E-4D11-B4CC-EA9ABE321486}.Release|x86.Build.0 = Release|Any CPU
+		{1217DBB7-696E-4D11-B4CC-EA9ABE321486}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
