@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="OverSurgery.Program" Collapsed="True">
+    <Position X="0.5" Y="3.7" Width="2.266876" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="OverSurgery.GlobalVars" Collapsed="True">
+    <Position X="0.5" Y="5.1" Width="2.266876" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="OverSurgery.Receptionist" Collapsed="True">
+    <Position X="0.5" Y="6.5" Width="1.359738" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="OverSurgery.Availability" Collapsed="True">
+    <Position X="0.5" Y="8.4" Width="1.593166" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="OverSurgery.MainScreen" Collapsed="True">
+    <Position X="0.5" Y="9.9" Width="1.78862" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="OverSurgery.Properties.Resources" Collapsed="True">
+    <Position X="0.5" Y="12.5" Width="2.472174" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="True" />
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="OverSurgery.Properties.Settings" Collapsed="True">
+    <Position X="0.5" Y="15" Width="1.828166" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="OverSurgery.Login" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="1.9" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>
