@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace OverSurgery
 {
-    public partial class Form1 : Form
+    public partial class PatientAdd : Form
     {
-        public Form1()
+        public PatientAdd()
         {
             InitializeComponent();
         }
@@ -54,6 +54,12 @@ namespace OverSurgery
                                             emailTextBox.Text);
             this.patientTableAdapter.Update(this.myDBpatientDS.Patient);
 
+        }
+
+        private void PatientAdd_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            MainScreen mainMenu = new MainScreen();
+            mainMenu.Show();
         }
     }
 }

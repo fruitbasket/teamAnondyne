@@ -13,24 +13,20 @@ namespace OverSurgery
     {
         public MainScreen()
         {
+            InitializeComponent();
         }
 
-        private void personDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void MainScreen_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void InitializeComponent()
+        private void buttonRegister_Click(object sender, EventArgs e)
         {
-            this.SuspendLayout();
-            // 
-            // MainScreen
-            // 
-            this.ClientSize = new System.Drawing.Size(795, 554);
-            this.Name = "MainScreen";
-            this.ResumeLayout(false);
             this.Hide();
+            PatientAdd patientAdd = new PatientAdd();
+            patientAdd.Show();
         }
-        
+
     }
 }

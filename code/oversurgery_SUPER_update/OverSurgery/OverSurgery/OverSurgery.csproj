@@ -64,13 +64,19 @@
   <ItemGroup>
     <Compile Include="ClassAppointment.cs" />
     <Compile Include="ClassDatabase.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="PatientAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="PatientAdd.Designer.cs">
+      <DependentUpon>PatientAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="ClassGlobalVars.cs" />
+    <Compile Include="MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="myDBpatientDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -94,12 +100,6 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainScreen.Designer.cs">
-      <DependentUpon>MainScreen.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ClassStaff.cs" />
@@ -116,8 +116,8 @@
     <Compile Include="Timetable_2.Designer.cs">
       <DependentUpon>Timetable_2.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="PatientAdd.resx">
+      <DependentUpon>PatientAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

@@ -24,10 +24,12 @@ namespace OverSurgery
             
             if (user._username == textboxUsername.Text && user._password == textboxPassword.Text)
             {
-                MainScreen Screen = new MainScreen();
+                //this.Top = ClassGlobalVars.formYLocation;
+                //this.Left = ClassGlobalVars.formXLocation;
                 this.Visible = false;
-                Screen.Visible = true;
-                ClassGlobalVars.loginClose = true;
+                MainScreen mainMenu = new MainScreen();
+                mainMenu.Show();
+                //mainMenu.Location = new Point(ClassGlobalVars.formYLocation, ClassGlobalVars.formXLocation);
             }
             else
             {

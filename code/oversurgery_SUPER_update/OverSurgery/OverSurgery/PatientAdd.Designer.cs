@@ -1,6 +1,6 @@
 ﻿namespace OverSurgery
 {
-    partial class Form1
+    partial class PatientAdd
     {
         /// <summary>
         /// Required designer variable.
@@ -38,7 +38,7 @@
             System.Windows.Forms.Label landLineNumberLabel;
             System.Windows.Forms.Label mobileNumberLabel;
             System.Windows.Forms.Label emailLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PatientAdd));
             this.myDBpatientDS = new OverSurgery.myDBpatientDS();
             this.patientBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.patientTableAdapter = new OverSurgery.myDBpatientDSTableAdapters.PatientTableAdapter();
@@ -384,14 +384,14 @@
             this.patientBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.patientBindingNavigator.Name = "patientBindingNavigator";
             this.patientBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.patientBindingNavigator.Size = new System.Drawing.Size(849, 25);
+            this.patientBindingNavigator.Size = new System.Drawing.Size(1008, 25);
             this.patientBindingNavigator.TabIndex = 0;
             // 
-            // Form1
+            // PatientAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(849, 547);
+            this.ClientSize = new System.Drawing.Size(1008, 730);
             this.Controls.Add(this.button1);
             this.Controls.Add(titleLabel);
             this.Controls.Add(this.titleTextBox);
@@ -412,8 +412,11 @@
             this.Controls.Add(emailLabel);
             this.Controls.Add(this.emailTextBox);
             this.Controls.Add(this.patientBindingNavigator);
-            this.Name = "Form1";
+            this.MaximumSize = new System.Drawing.Size(1024, 768);
+            this.MinimumSize = new System.Drawing.Size(1024, 768);
+            this.Name = "PatientAdd";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PatientAdd_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.myDBpatientDS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource)).EndInit();

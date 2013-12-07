@@ -7,6 +7,9 @@ namespace OverSurgery
 {
     static class Program
     {
+        private static MainScreen mainMenu;
+        private static Login loginScreen;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +19,11 @@ namespace OverSurgery
             //opens first form, the window for logging into the system
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainScreen());
+            //mainMenu = new MainScreen();
+            loginScreen = new Login();
+            Application.Run(loginScreen);
+
+            
 
             //checks if first successful login and then opens the main screen
             //if(GlobalVars.loginClose)
