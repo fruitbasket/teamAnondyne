@@ -52,10 +52,11 @@
             this.buttonAppointment.TabIndex = 1;
             this.buttonAppointment.Text = "Book An Appointment";
             this.buttonAppointment.UseVisualStyleBackColor = true;
+            this.buttonAppointment.Click += new System.EventHandler(this.buttonAppointment_Click);
             // 
             // buttonStaff
             // 
-            this.buttonStaff.Location = new System.Drawing.Point(276, 192);
+            this.buttonStaff.Location = new System.Drawing.Point(620, 163);
             this.buttonStaff.Name = "buttonStaff";
             this.buttonStaff.Size = new System.Drawing.Size(200, 23);
             this.buttonStaff.TabIndex = 2;
@@ -64,9 +65,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(276, 221);
+            this.button4.Location = new System.Drawing.Point(620, 134);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(200, 23);
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;

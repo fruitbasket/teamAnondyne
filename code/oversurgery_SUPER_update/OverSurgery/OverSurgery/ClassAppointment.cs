@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace OverSurgery
 {
-    class Appointment
+    class ClassAppointment
     {
         private string timeSlot;
         private DateTime date;

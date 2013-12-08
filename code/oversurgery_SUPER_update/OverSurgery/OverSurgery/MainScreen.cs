@@ -28,5 +28,12 @@ namespace OverSurgery
             patientAdd.Show();
         }
 
+        private void buttonAppointment_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegAppointment regAppointment = new RegAppointment();
+            regAppointment.Show();
+        }
+
     }
 }

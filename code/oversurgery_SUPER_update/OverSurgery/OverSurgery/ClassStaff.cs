@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApplication1
+namespace OverSurgery
 {
-    class Staff
+    class ClassStaff
     {
         //Staff variables
         private int staffID;

@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace WindowsFormsApplication1
+namespace OverSurgery
 {
-    class Patient
+    class ClassPatient
     {
         // Patient Variables
         private int patientID;
@@ -152,6 +151,4 @@ namespace WindowsFormsApplication1
 
         }
     }
-
-
 }
