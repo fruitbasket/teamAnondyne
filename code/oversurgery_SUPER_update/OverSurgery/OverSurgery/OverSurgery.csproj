@@ -76,7 +76,7 @@
     <Compile Include="PatientAdd.Designer.cs">
       <DependentUpon>PatientAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClassGlobalVars.cs" />
+    <Compile Include="ClassGlobal.cs" />
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>

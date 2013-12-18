@@ -28,7 +28,6 @@ namespace OverSurgery
             this.Validate();
             this.patientBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.myDBpatientDS);
-
         }
 
         private void RegAppointment_Load(object sender, EventArgs e)
@@ -40,7 +39,10 @@ namespace OverSurgery
             
             //adds values to combo box for staff search
             string[] roles = new string[] { "DR", "Nurse" };
-            comboBoxRole.Items.AddRange(roles);        
+            comboBoxRole.Items.AddRange(roles);
+            string[] times = new string[] {"09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00",
+                                            "14:30", "15:00", "15:30", "16:00", "16:30"};
+            comboBoxTimes.Items.AddRange(times);
         }
 
         private void buttonSearch(object sender, EventArgs e)
@@ -97,6 +99,6 @@ namespace OverSurgery
         private void patientDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-        }   
+        }
     }
 }
